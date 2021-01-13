@@ -1,0 +1,72 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+.big-title{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #222831;
+  margin-bottom: 2rem;
+  }
+
+  .inline{
+    display: inline;
+  }
+
+.picture-res{
+  border: 3px solid #222831;
+   width: 70%;
+    margin: auto;
+    display: flex;              }
+
+.container-fluid{
+  padding: 5% 15%;
+
+}
+
+/* Navigation Bar */
+#navbar .container-fluid{
+  padding: 0 15%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #ffd369;
+}
+
+/* Title Section */
+#title{
+  background-color: white;
+}
+
+/* carousel Section */
+#carousel{
+  background-color: #ffd369;
+}
+
+.carousel-img{
+  width: 20%;
+  margin: 0 auto;
+}
+
+#products{
+  background-color: white;
+  text-align: center;
+}
+
+#contact{
+  background-color: #ffd369;
+}
+
+#footer{
+  text-align: center;
+  color: #ffd369;
+  }
+#footer .container-fluid{
+  padding: 3% 15%;
+  margin-bottom: 0;
+}
