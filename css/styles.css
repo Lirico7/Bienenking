@@ -1,7 +1,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  }
+    }
 
 .big-title{
   font-size: 3.5rem;
@@ -10,11 +10,7 @@ body{
   margin-bottom: 2rem;
   }
 
-  .inline{
-    display: inline;
-  }
-
-.picture-res{
+  .picture-res{
   border: 3px solid #222831;
    width: 70%;
               }
@@ -42,10 +38,21 @@ body{
 #title{
   background-color: white;
 }
-
+.margin-bottom{
+  padding-bottom: 2rem;
+}
 /* carousel Section */
 #carousel{
   background-color: #ffd369;
+}
+
+@media (max-width: 767px) {
+  .p-small {
+    font-size: 2rem;
+  }
+  .h1-small{
+    font-size: 7rem;
+  }
 }
 
 .carousel-img{
